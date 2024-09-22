@@ -76,6 +76,7 @@ header::after {
 .maintenance {
   height: 50vh;
   /* This will make the section take up 20% of the viewport height */
+  /* If you comment out 76-80 it will adjust the view from horizontal to vertical  */
 }
 
 .grid {
@@ -92,4 +93,12 @@ header::after {
 .grid button {
   width: 100%;
   margin-top: 10px;
+}
+
+.grid > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100%;
 }

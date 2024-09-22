@@ -92,13 +92,16 @@ header::after {
 
 .grid button {
   width: 100%;
-  margin-top: 10px;
+  margin-top: auto;
 }
 
 .grid > div {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: space-between;
   height: 100%;
+}
+
+.content {
+  align-self: flex-start;
 }

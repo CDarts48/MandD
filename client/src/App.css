@@ -53,16 +53,10 @@ header::after {
 }
 
 .hero-content {
-  display: flex; /* Makes the child divs sit side by side */
-}
-
-.hero-image, .hero-text {
-  flex: 1; /* Each div takes up half of the container's width */
-}
-
-.hero-image img {
-  width: 100%; /* Makes the image take up the full width of its parent div */
-  height: auto; /* Keeps the image's aspect ratio */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3q0vh; /* Adjust as needed */
 }
 
 .hero-text {
@@ -104,4 +98,19 @@ header::after {
 
 .content {
   align-self: flex-start;
+}
+
+.image-container {
+  position: relative;
+}
+
+.image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: opacity 2s ease-in-out;
+}
+
+.image.fade {
+  opacity: 0;
 }

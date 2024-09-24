@@ -5,7 +5,7 @@ const HeroSection = () => {
     <section className="hero">
       <div className="hero-content">
         <div className="hero-image">
-          <img src="path_to_your_image.jpg" alt="Hero" />
+          {/* Image removed */}
         </div>
         <div className="hero-text">
           <h1>Quality Service</h1>

@@ -23,7 +23,7 @@ const ServiceSection = () => {
           <button>View More</button>
         </div>
         <div>
-          <img src="/workpics/20231113_162909.jpg" alt="Kitchen" />
+          <img src="client/public/workpics/20231113_162909.jpg" alt="Kitchen" />
           <div className="Kitchen">
             <h2>Kitchen</h2>
             <p>We specialize in kitchen renovations to create a space you'll love.</p>
@@ -31,7 +31,7 @@ const ServiceSection = () => {
           <button>View More</button>
         </div>
         <div>
-          <img src="/workpics/20230330_161944.jpg" alt="Remodel" />
+          <img src="client/public/workpics/20230330_161944.jpg" alt="Remodel" />
           <div className="Remodel">
             <h2>Remodel</h2>
             <p>From design to construction, we handle every aspect of your remodel.</p>
